@@ -2,6 +2,7 @@ package histoire;
 
 import personnages.Commercant;
 import personnages.Humain;
+import personnages.Yazuka;
 
 public class HistoireTP4 {
 
@@ -19,6 +20,10 @@ public class HistoireTP4 {
 		marco.seFaireExtorquer();
 		marco.recevoir(15);
 		marco.boire();
+		
+		Yazuka yaku = new Yazuka("Yaku Le Noir", "whisky", 30, "Warsong");
+		yaku.direBonjour();
+		yaku.extorquer(marco);
 		
 	}
 
